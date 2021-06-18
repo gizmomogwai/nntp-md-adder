@@ -8,12 +8,12 @@ enum targetHost = "news.digitalmars.com";
 enum targetPort =  119;
 enum listenPort = 4119;
 
-Data serverTranscoder(Data data)
+Data clientTranscoder(Data data)
 {
 	return data;
 }
 
-Data clientTranscoder(Data data)
+Data serverTranscoder(Data data)
 {
 	auto contents = cast(string)data.contents;
 	enum replaceFrom = "\nContent-Type: text/plain;";
