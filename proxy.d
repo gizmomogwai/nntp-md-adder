@@ -24,9 +24,8 @@ Data clientTranscoder(Data data)
 	return Data(contents.replace(replaceFrom, replaceTo));
 }
 
-void main(string[] args)
+void main()
 {
-	enforce(args.length > 1, "Bad usage");
 	auto log = createLogger("NNTPProxy");
 
 	auto server = new TcpServer();
