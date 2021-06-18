@@ -1,0 +1,5 @@
+name "nntp-md-adder"
+targetType "executable"
+dependency "ae" version="==0.0.3063"
+
+sourceFiles "proxy.d"
