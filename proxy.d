@@ -4,7 +4,7 @@ import std.string;
 import ae.net.asockets;
 import ae.sys.log;
 
-enum targetHost = "nntp.digitalmars.com";
+enum targetHost = "news.digitalmars.com";
 enum targetPort =  119;
 enum listenPort = 4119;
 
