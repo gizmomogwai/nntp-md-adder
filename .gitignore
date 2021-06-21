@@ -1,1 +1,4 @@
-/nntp-md-adder
+/nntp-proxy-digitalmars-com
+.dub
+logs
+*~

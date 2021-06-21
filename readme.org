@@ -1,0 +1,7 @@
+* nntp-proxy-digitalmars-com
+
+  Taken from https://gist.github.com/CyberShadow/ccb3813d5953e5e7f2c53fe43275f986
+
+** Usage
+=dub run= + point your thunderbird to =127.0.0.1:4119= instead of =news.digitalmars.com:119=.
+Optionally you can assign a nice name by changing =/etc/hosts=
