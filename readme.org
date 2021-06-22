@@ -5,3 +5,5 @@
 ** Usage
 =dub run= + point your thunderbird to =127.0.0.1:4119= instead of =news.digitalmars.com:119=.
 Optionally you can assign a nice name by changing =/etc/hosts=
+
+Use =```d= to start a block of dlang code.
